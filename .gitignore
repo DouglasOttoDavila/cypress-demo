@@ -1,2 +1,3 @@
 /node_modules
-/cypress/videos
+cypress/videos
+cypress/videos/singlePageTest.spec.js.mp4
