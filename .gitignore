@@ -1,3 +1,5 @@
 /node_modules
 cypress/videos
 cypress/videos/singlePageTest.spec.js.mp4
+/cypress/integration/1-getting-started
+/cypress/integration/2-advanced-examples
