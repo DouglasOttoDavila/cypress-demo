@@ -18,9 +18,10 @@ import './commands'
 import './functions' //importa o functions.js criado na pasta support
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+import './singlePageTest_func.js'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false here prevents Cypress from
   // failing the test
   return false
-})
+});
