@@ -13,12 +13,15 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+require('cypress-xpath')
+
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './functions' //importa o functions.js criado na pasta support
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 import './singlePageTest_func.js'
+import './assertionTest_func.js'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false here prevents Cypress from
