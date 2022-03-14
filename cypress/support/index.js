@@ -14,6 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-localstorage-commands'
 import './commands'
 import './functions' //importa o functions.js criado na pasta support
 import './singlePageTest_func.js'
@@ -31,7 +32,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false
 });
 
-/*
 afterEach(() => {
   //Code to Handle the Sesssions in cypress.
   //Keep the Session alive when you jump to another test
@@ -48,5 +48,4 @@ afterEach(() => {
       }
     }
   })
-})
-*/
+});
