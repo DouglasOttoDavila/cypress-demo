@@ -2,8 +2,11 @@
 
 describe('Assertion Test', () => {
 
-    it('Assertions', () => {  
+    before(() => {
         cy.visit("https://demoblaze.com/");
+    });
+
+    it('Assertions', () => {  
         cy.assertions();
     });
 
