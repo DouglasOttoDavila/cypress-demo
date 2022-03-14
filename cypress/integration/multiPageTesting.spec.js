@@ -16,10 +16,6 @@ describe('Multi Page Testing', () => {
           Cypress.Cookies.preserveOnce('session-username', 'standard_user');
     });
 
-    beforeEach(() => {
-        //Cypress.Cookies.preserveOnce('session-username', 'standard_user');
-    });
-
     it('Login', () => {  
         cy.login(user);
     });
