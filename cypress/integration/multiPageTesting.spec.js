@@ -9,7 +9,7 @@ describe('Multi Page Testing', () => {
         zipCode: "A1A1A1",
         confirmationTitle: "THANK YOU FOR YOUR ORDER",
         confirmationText: "Your order has been dispatched, and will arrive just as fast as the pony can get there!",
-    }
+    };
 
     before(() => {
           cy.visit("https://www.saucedemo.com/");
