@@ -1,6 +1,6 @@
 
 //cria função (comando) personalizado
-Cypress.Commands.add('login', (user) => { 
+Cypress.Commands.add('loginAssertionTest', (user) => { 
     cy.get('#login2').click();
     cy.wait(2000);
     cy.get('#loginusername').type(user.username);

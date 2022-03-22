@@ -15,7 +15,7 @@ describe('Assertion Test', () => {
             username: "testuser25",
             password: "1234",
         }
-        cy.login(user);
+        cy.loginAssertionTest(user);
     });
 });
     

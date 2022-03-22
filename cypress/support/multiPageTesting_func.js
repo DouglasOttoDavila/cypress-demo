@@ -1,6 +1,6 @@
 
 //cria função (comando) personalizado
-Cypress.Commands.add('login', (user) => { 
+Cypress.Commands.add('loginMultipage', (user) => { 
     cy.get('#user-name').type(user.login);
     cy.get('#password').type(user.password);
     cy.wait(1000);

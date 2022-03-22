@@ -17,7 +17,7 @@ describe('Multi Page Testing', () => {
     });
 
     it('Login', () => {  
-        cy.login(user);
+        cy.loginMultipage(user);
     });
 
     it('Add products and go to cart', () => {  
